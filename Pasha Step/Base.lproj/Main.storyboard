@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="21179.7" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PcS-Mg-AV6">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21169.4"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Onboarding Page Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="OnboardingPageController" customModule="Pasha_Step" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" alpha="0.10000000000000001" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logobackgroundphoto" translatesAutoresizingMaskIntoConstraints="NO" id="3Vi-mJ-fzT">
+                                <rect key="frame" x="1" y="0.0" width="388" height="411"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pashalifelogo " translatesAutoresizingMaskIntoConstraints="NO" id="uOx-oN-kUh">
+                                <rect key="frame" x="114" y="104" width="162" height="70"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e1H-Cz-eK5">
+                                <rect key="frame" x="64" y="706" width="262" height="60"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="wOg-3q-PLC"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Başla">
+                                    <fontDescription key="titleFontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                </buttonConfiguration>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sağlam Qal, Addımları Say, Qazan." textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WBn-WZ-48e">
+                                <rect key="frame" x="16" y="288.66666666666669" width="358" height="57.333333333333314"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <keyboardLayoutGuide key="keyboard" id="3JI-Hq-FfQ"/>
+                        <color key="backgroundColor" red="0.12156862745098039" green="0.098039215686274508" blue="0.094117647058823528" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WBn-WZ-48e" secondAttribute="bottom" constant="464" id="1nw-ph-hla"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="e1H-Cz-eK5" secondAttribute="trailing" constant="64" id="4DB-O0-Kmq"/>
+                            <constraint firstItem="3Vi-mJ-fzT" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="Ci8-ik-Dcc"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="e1H-Cz-eK5" secondAttribute="bottom" constant="44" id="FWS-xa-oCs"/>
+                            <constraint firstItem="3Vi-mJ-fzT" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="JzS-hd-lnw"/>
+                            <constraint firstItem="e1H-Cz-eK5" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="64" id="N5u-jT-d1q"/>
+                            <constraint firstItem="WBn-WZ-48e" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="16" id="UOC-wR-PUs"/>
+                            <constraint firstItem="uOx-oN-kUh" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="16" id="cte-HP-PYq"/>
+                            <constraint firstItem="uOx-oN-kUh" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="op7-lt-v9d"/>
+                            <constraint firstAttribute="trailing" secondItem="WBn-WZ-48e" secondAttribute="trailing" constant="16" id="rgq-nn-fM1"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="hfq-Le-AHE"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="950.76923076923072" y="3.5545023696682461"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="LCd-cZ-dWv">
+            <objects>
+                <viewController id="ZiP-PP-i8F" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Q1e-3e-EkP">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="ZKI-rQ-2oH"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fCU-Ts-JUP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1638" y="4"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="OLX-jN-ayx">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="PcS-Mg-AV6" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="hGg-ds-Eez">
+                        <rect key="frame" x="0.0" y="44" width="390" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="z4u-nZ-K2B"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="2jP-Uf-GVl" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="21.538461538461537" y="3.5545023696682461"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="logobackgroundphoto" width="388" height="411"/>
+        <image name="pashalifelogo " width="162" height="70"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

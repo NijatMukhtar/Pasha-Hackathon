@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3510EBCE28F0BB0D00FACC02 /* LoginPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3510EBCD28F0BB0D00FACC02 /* LoginPageController.swift */; };
+		35BB887028F0D41D00681DE9 /* MainPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35BB886F28F0D41D00681DE9 /* MainPageController.swift */; };
 		35C25FE328F0B1BD008A0100 /* OnboardingPageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35C25FE228F0B1BD008A0100 /* OnboardingPageController.swift */; };
 		35D26C9228F0A7C00008005C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D26C9128F0A7C00008005C /* AppDelegate.swift */; };
 		35D26C9428F0A7C00008005C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 35D26C9328F0A7C00008005C /* SceneDelegate.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		3510EBCD28F0BB0D00FACC02 /* LoginPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageController.swift; sourceTree = "<group>"; };
+		35BB886F28F0D41D00681DE9 /* MainPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainPageController.swift; sourceTree = "<group>"; };
 		35C25FE228F0B1BD008A0100 /* OnboardingPageController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingPageController.swift; sourceTree = "<group>"; };
 		35D26C8E28F0A7C00008005C /* Pasha Step.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pasha Step.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		35D26C9128F0A7C00008005C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -46,6 +48,7 @@
 			children = (
 				35C25FE228F0B1BD008A0100 /* OnboardingPageController.swift */,
 				3510EBCD28F0BB0D00FACC02 /* LoginPageController.swift */,
+				35BB886F28F0D41D00681DE9 /* MainPageController.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				3510EBCE28F0BB0D00FACC02 /* LoginPageController.swift in Sources */,
 				35D26C9228F0A7C00008005C /* AppDelegate.swift in Sources */,
 				35C25FE328F0B1BD008A0100 /* OnboardingPageController.swift in Sources */,
+				35BB887028F0D41D00681DE9 /* MainPageController.swift in Sources */,
 				35D26C9428F0A7C00008005C /* SceneDelegate.swift in Sources */,
 				35D26C9C28F0A7C00008005C /* Pasha_Step.xcdatamodeld in Sources */,
 			);
@@ -306,6 +310,7 @@
 				DEVELOPMENT_TEAM = 93GUC69XMX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pasha Step/Info.plist";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Please allow for counting your steps";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -334,6 +339,7 @@
 				DEVELOPMENT_TEAM = 93GUC69XMX;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "Pasha Step/Info.plist";
+				INFOPLIST_KEY_NSMotionUsageDescription = "Please allow for counting your steps";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

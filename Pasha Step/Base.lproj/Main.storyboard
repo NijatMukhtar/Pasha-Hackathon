@@ -180,7 +180,7 @@
                                         <rect key="frame" x="0.0" y="1" width="390" height="87"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="it1-cy-6vI">
-                                                <rect key="frame" x="44" y="14.333333333333375" width="65" height="48.333333333333343"/>
+                                                <rect key="frame" x="44" y="-120" width="65" height="317"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="button1untapped"/>
                                                 <connections>
@@ -197,8 +197,8 @@
                                                     <action selector="button2tapped:" destination="f5B-Fz-Sxm" eventType="touchUpInside" id="9hl-M6-iay"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UH9-Mn-xwq">
-                                                <rect key="frame" x="281" y="11" width="65" height="55"/>
+                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UH9-Mn-xwq">
+                                                <rect key="frame" x="290" y="8" width="69" height="60"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain" image="button3untapped" title=""/>
                                                 <connections>
@@ -233,17 +233,14 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="graph" translatesAutoresizingMaskIntoConstraints="NO" id="20J-23-5gQ">
                                 <rect key="frame" x="-514.66666666666663" y="416" width="1419.3333333333333" height="252"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stepbackgrounphoto" translatesAutoresizingMaskIntoConstraints="NO" id="6ot-hg-hif">
-                                <rect key="frame" x="72" y="88" width="246" height="246"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ymb-pP-Um2">
                                 <rect key="frame" x="186.66666666666666" y="207" width="17" height="36"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="stepman" translatesAutoresizingMaskIntoConstraints="NO" id="FMh-3m-W4L">
-                                <rect key="frame" x="167.66666666666666" y="144" width="55" height="55"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stepman" translatesAutoresizingMaskIntoConstraints="NO" id="FMh-3m-W4L">
+                                <rect key="frame" x="168" y="151" width="55" height="55"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="≈ 350 pc" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RiB-zw-PBb">
                                 <rect key="frame" x="160.66666666666666" y="247" width="69" height="21"/>
@@ -282,6 +279,9 @@
                                     <constraint firstItem="HBA-PB-1c5" firstAttribute="centerX" secondItem="bHq-TC-wOK" secondAttribute="centerX" id="ikX-ek-wsr"/>
                                 </constraints>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="stepbackgrounphoto" translatesAutoresizingMaskIntoConstraints="NO" id="6ot-hg-hif">
+                                <rect key="frame" x="69" y="82" width="246" height="246"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="xs9-XT-fdO"/>
                         <color key="backgroundColor" red="0.87058823529411766" green="0.87058823529411766" blue="0.87058823529411766" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -320,7 +320,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cNJ-V5-Jck" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2325" y="4"/>
+            <point key="canvasLocation" x="2324.6153846153848" y="3.5545023696682461"/>
         </scene>
         <!--Award Page Controller-->
         <scene sceneID="Dc7-wG-8jG">
@@ -440,11 +440,11 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eD3-cd-beZ">
-                                <rect key="frame" x="0.0" y="757" width="390" height="87"/>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eD3-cd-beZ">
+                                <rect key="frame" x="0.0" y="756" width="390" height="88"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZMz-NJ-jbF">
-                                        <rect key="frame" x="44" y="6.6666666666666252" width="60" height="63.666666666666657"/>
+                                        <rect key="frame" x="44" y="-119" width="60" height="314.66666666666669"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="but1tapped"/>
                                         <connections>
@@ -465,8 +465,8 @@
                                             <action selector="button2tapped:" destination="l9J-yg-f5Z" eventType="touchUpInside" id="zeq-pi-nyX"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3au-Hl-epg">
-                                        <rect key="frame" x="281" y="11" width="65" height="55"/>
+                                    <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="249" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3au-Hl-epg">
+                                        <rect key="frame" x="281" y="11" width="84" height="70"/>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="button3untapped" title=""/>
                                         <connections>
@@ -522,6 +522,70 @@
             </objects>
             <point key="canvasLocation" x="3627.6923076923076" y="3.5545023696682461"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="JxI-Qc-Isv">
+            <objects>
+                <viewController id="Au2-09-cgO" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Pmy-te-XPY">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Tj1-HC-w65">
+                                <rect key="frame" x="0.0" y="756" width="390" height="88"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iea-00-lrp">
+                                        <rect key="frame" x="44" y="13.666666666666664" width="60" height="50"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="but1tapped"/>
+                                        <connections>
+                                            <action selector="button1tapped:" destination="f5B-Fz-Sxm" eventType="touchUpInside" id="Olo-tu-kWR"/>
+                                            <action selector="button1tapped:" destination="Lss-Ta-JPO" eventType="touchUpInside" id="S9w-J4-Oe8"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Oft-4d-byZ">
+                                        <rect key="frame" x="157.66666666666666" y="6" width="75" height="65"/>
+                                        <state key="normal" title="Button"/>
+                                        <buttonConfiguration key="configuration" style="plain" image="button2untapped">
+                                            <preferredSymbolConfiguration key="preferredSymbolConfigurationForImage"/>
+                                        </buttonConfiguration>
+                                        <connections>
+                                            <action selector="button1tapped:" destination="l9J-yg-f5Z" eventType="touchUpInside" id="3lO-GM-sS9"/>
+                                            <action selector="button2tapped:" destination="Lss-Ta-JPO" eventType="touchUpInside" id="XGA-QM-pEC"/>
+                                            <action selector="button2tapped:" destination="l9J-yg-f5Z" eventType="touchUpInside" id="sfR-qc-D3y"/>
+                                            <action selector="button2tapped:" destination="f5B-Fz-Sxm" eventType="touchUpInside" id="vXK-xd-GkU"/>
+                                        </connections>
+                                    </button>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="logincurve" translatesAutoresizingMaskIntoConstraints="NO" id="igF-qe-EpB">
+                                        <rect key="frame" x="284" y="2" width="60" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="Oft-4d-byZ" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="iea-00-lrp" secondAttribute="trailing" constant="8" symbolic="YES" id="Qvm-6T-rZR"/>
+                                    <constraint firstItem="iea-00-lrp" firstAttribute="centerY" secondItem="Oft-4d-byZ" secondAttribute="centerY" id="YRs-4A-0LN"/>
+                                    <constraint firstItem="Oft-4d-byZ" firstAttribute="centerX" secondItem="Tj1-HC-w65" secondAttribute="centerX" id="fHC-mE-QR4"/>
+                                    <constraint firstItem="Oft-4d-byZ" firstAttribute="top" secondItem="Tj1-HC-w65" secondAttribute="top" constant="6" id="gEV-1O-luw"/>
+                                    <constraint firstItem="iea-00-lrp" firstAttribute="leading" secondItem="Tj1-HC-w65" secondAttribute="leading" constant="44" id="uvf-Eh-DlY"/>
+                                </constraints>
+                            </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" misplaced="YES" image="coomingsoon" translatesAutoresizingMaskIntoConstraints="NO" id="4ft-fn-Nq0">
+                                <rect key="frame" x="85" y="18" width="206" height="632"/>
+                            </imageView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ZUu-NA-FxU"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="ZUu-NA-FxU" firstAttribute="trailing" secondItem="4ft-fn-Nq0" secondAttribute="trailing" constant="92" id="A1p-93-wD4"/>
+                            <constraint firstItem="4ft-fn-Nq0" firstAttribute="top" secondItem="ZUu-NA-FxU" secondAttribute="top" constant="200" id="K3v-Qj-OXS"/>
+                            <constraint firstItem="4ft-fn-Nq0" firstAttribute="leading" secondItem="ZUu-NA-FxU" secondAttribute="leading" constant="92" id="zOs-jw-Is0"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Suw-bw-enc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4300" y="3.5545023696682461"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="OLX-jN-ayx">
             <objects>
@@ -547,10 +611,12 @@
         <image name="but2tapped" width="51" height="51"/>
         <image name="button1untapped" width="41" height="41"/>
         <image name="button2untapped" width="51" height="51"/>
-        <image name="button3untapped" width="41" height="41"/>
+        <image name="button3untapped" width="72" height="72"/>
         <image name="coinBackgroundPhoto" width="236" height="64"/>
+        <image name="coomingsoon" width="884" height="632"/>
         <image name="detailedinformation" width="658" height="572"/>
         <image name="graph" width="355" height="245"/>
+        <image name="logincurve" width="72" height="72"/>
         <image name="logobackgroundphoto" width="388" height="411"/>
         <image name="navbarbottom" width="1352" height="433"/>
         <image name="pashalifelogo" width="312" height="128"/>
